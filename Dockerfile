@@ -26,6 +26,3 @@ RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-ke
     && apt-get clean all && \
 apt-get purge && \
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-
-COPY Dockerfile_ubuntu /home
